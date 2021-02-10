@@ -2,7 +2,7 @@
 This is the EHB110E final project. Aim is that encrypt one or more files into a single file using AES256-CBC and decrypt this single file by preserving relative pathways of the encrypted files.
 
 ## Installation
-Clone the repo and compile with `gcc aes256cbc_file_enc_dec.c`.
+Clone the repo and `make all`.
 
 ## Usage
 ```
