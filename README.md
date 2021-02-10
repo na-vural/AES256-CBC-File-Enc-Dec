@@ -31,5 +31,6 @@ After the key parameter one of the two options must be specified, encryption or 
 ```
 
 ## TODO
-- Typos and some bugs will be fixed.
-- Probably the single source file will be splitted as multiple source file.
+- Output file option for decryption will be added.
+- Some tricks for faster encryption and decryption will be removed to make secure the algorithm.
+- To be compatible with fips-197, key expansion algorithm will be changed and expanded key will be stored as 4 by (NR256+1)*4 matrix instead of (NR256+1)*4 by 4 matrix.
