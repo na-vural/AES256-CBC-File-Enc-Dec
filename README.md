@@ -7,8 +7,8 @@ Clone the repo and `make all`.
 ## Usage
 ```
 AES256 CBC File Encryptor-Decryptor
-Encryption Usage: ./a.out -k [KEY] -e -o [OUTPUT FILE] -i [INPUT FILE(S)-DIR(S)]
-Decryption Usage: ./a.out -k [KEY] -d -i [INPUT FILE]
+Encryption Usage: ./file_enc_dec -k [KEY] -e -o [OUTPUT FILE] -i [INPUT FILE(S)-DIR(S)]
+Decryption Usage: ./file_enc_dec -k [KEY] -d -i [INPUT FILE]
 -k [KEY]            The key that is used in encryption and decryption.
                     Key must be given in the first place.
                     Key length should be 256 bit namely 32 byte.
